@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80');
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    margin: 20px;
+}
+
+form {
+    background-color: rgba(42, 13, 186, 0.239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 8px;
+    max-width: 400px;
+    padding-top: 2rem;
+}
+
+div {
+    display: block;
+    width: 85%;
+    margin-bottom: 10px;
+}
+div label {
+    color: white;
+
+}
+
+div input {
+    background: rgba(199, 194, 225, 0.324);
+}
+
+
+button {
+    background: #282275db;
+    margin-bottom: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #004cff97;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: px;
+}

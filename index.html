@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi Negocio</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <div>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario" required pattern="[a-zA-Z0-9]{5,15}"
+                    title="El usuario debe tener entre 5 y 15 caracteres alfanuméricos.">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required pattern=".{8,}"
+                    title="El password debe tener al menos 8 caracteres.">
+            </div>
+            <div>
+                <label for="confirmar-password">Confirmar Password:</label>
+                <input type="password" name="confirmar-password" id="confirmar-password" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>
